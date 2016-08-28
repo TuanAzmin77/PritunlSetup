@@ -1,0 +1,6 @@
+http_port 3128
+http_port 60000
+http_port 8080
+http_access allow all  
+acl Allowed_IPS dst 128.199.111.201
+http_access allow Allowed_IPS
